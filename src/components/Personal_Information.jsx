@@ -38,7 +38,7 @@ const Personal_Information = () => {
         Personal Information
       </div>
       <div></div>
-      <div className="mt-5">
+      <div className="mt-md-5 mt-1">
         <div class=" d-lg-flex justify-content-center gap-2">
           <div class=" col-lg-4 ">
             <InputFile placeholder={"Last Name"} />
