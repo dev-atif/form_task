@@ -1,12 +1,144 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
+.background-container {
+  background-image: url("../../public/hero_section.jpg");
+  background-size: 100% !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 1027px;
+  width: 100%; 
+}
+@media screen and (max-width: 768px) {
+  .background-container {
+    background-size: 120% !important; 
+  }
+}
+.react-datetime-picker__wrapper {
+  border: none !important;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 .custom-outline-none:focus {
   outline: none !important;
 }
-.custom-select:focus {
-  outline: none;
-
+.Input-Border-Color {
+  border-color: #a3c2df;
 }
+.DayTime_Label h1 {
+  font-size: 18px;
+}
+
+.DayTime_Label span {
+  font-size: 13px;
+}
+.DayTime-padding {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.input_paddings {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.xl-container {
+  max-width: 1130px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Card-container {
+  width: 50px;
+  height: 120dvh !important;
+  background-color: #0b88cb !important;
+}
+.card-inner {
+  background-color: #f6f4ee;
+}
+.Second-Card-container {
+  width: 50px;
+
+  background-color: #0b88cb !important;
+}
+.Card-Checkbox-container {
+  background-color: #eeebe2;
+
+  width: 20%;
+  height: 100%;
+  z-index: 30;
+  position: absolute;
+  right: 0;
+}
+.check-box-container {
+  z-index: 40;
+  width: 15% !important;
+}
+.Add-button {
+  background-color: #05741b;
+  padding: 7px 17px;
+  transform: scale(1.03);
+  color: white;
+  border-color: #55ba67;
+  transition-duration: 0.5s;
+  transition-property: transform, background-color;
+  transition-timing-function: ease-out;
+  border-radius: 50px;
+}
+
+.Add-button:hover {
+  transform: scale(1);
+  background-color: black;
+}
+
+.Doubt-header {
+  background-color: #05741b;
+}
+.Submit-form-btn {
+  font-size: 1.5rem;
+  background-color: #eec415;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.Submit-form-btn:hover {
+  background-color: black;
+  color: white;
+}
+.custom-text-color {
+  color: black;
+}
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .custom-text-color {
+    color: white;
+  }
+  .Main-Content-Margin-Minus{
+    margin-top: -110%;
+  }
+}
+
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 575.98px) {
+  .Main-Content-Margin-Minus {
+    margin-top: -209%; /* Adjusted margin for small screens */
+  }
+}
+
+/* Media query for screens between 576px and 991.98px */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .Main-Content-Margin-Minus {
+    margin-top: -110%; /* Adjusted margin for medium screens */
+  }
+}
+
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  .Main-Content-Margin-Minus {
+    margin-top: -80%; /* Adjusted margin for large screens */
+  }
+}
+@media (min-width: 1200px){
+  .Main-Content-Margin-Minus{
+    margin-top: -48%;
+}}
