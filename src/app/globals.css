@@ -115,10 +115,13 @@
   .custom-text-color {
     color: white;
   }
-  /* .Main-Content-Margin-Minus{
-    margin-top: -110%;
-  } */
+
 }
 
+@media screen and (max-width: 360px) {
+  .Main-Content-Margin-Minus{
+    margin-top: -13%;
+  }
+}
 
 

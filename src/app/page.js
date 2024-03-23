@@ -21,7 +21,7 @@ export default function Home() {
         {/* ----------------BackGround Information Set here */}
       </div>
       {/* ------MAin Content */}
-      <div className="Main-Content-Margin-Minus px-lg-3 pt-5  px-xl-0">
+      <div className=" px-lg-3 pt-5  px-xl-0">
         {/* ----------Spacer Dive--------------------------- */}
         <div className=" pt-lg-5 mt-lg-5  ">
             <span > </span>
@@ -33,7 +33,7 @@ export default function Home() {
           {/* -------Spacer DIve End */}
         <div className=" xl-container px-xl-5 pb-5 pt-5 ">
 
-          <div>
+          <div className="Main-Content-Margin-Minus">
             <Personal_Information />
           </div>
         </div>
