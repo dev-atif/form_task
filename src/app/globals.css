@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   height: 1027px;
   width: 100%; 
+  position: absolute;
+  z-index: -20;
+  
 }
 @media screen and (max-width: 768px) {
   .background-container {
@@ -112,33 +115,10 @@
   .custom-text-color {
     color: white;
   }
-  .Main-Content-Margin-Minus{
+  /* .Main-Content-Margin-Minus{
     margin-top: -110%;
-  }
+  } */
 }
 
 
-/* Media query for screens smaller than 576px */
-@media (max-width: 575.98px) {
-  .Main-Content-Margin-Minus {
-    margin-top: -209%; /* Adjusted margin for small screens */
-  }
-}
 
-/* Media query for screens between 576px and 991.98px */
-@media (min-width: 576px) and (max-width: 991.98px) {
-  .Main-Content-Margin-Minus {
-    margin-top: -110%; /* Adjusted margin for medium screens */
-  }
-}
-
-/* Media query for screens larger than 992px */
-@media (min-width: 992px) {
-  .Main-Content-Margin-Minus {
-    margin-top: -80%; /* Adjusted margin for large screens */
-  }
-}
-@media (min-width: 1200px){
-  .Main-Content-Margin-Minus{
-    margin-top: -48%;
-}}

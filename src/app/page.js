@@ -21,10 +21,23 @@ export default function Home() {
         {/* ----------------BackGround Information Set here */}
       </div>
       {/* ------MAin Content */}
-      <div className="Main-Content-Margin-Minus px-lg-3  px-xl-0">
-        <div className=" xl-container px-xl-5 pb-5 ">
-          <Personal_Information />
+      <div className="Main-Content-Margin-Minus px-lg-3 pt-5  px-xl-0">
+        {/* ----------Spacer Dive--------------------------- */}
+        <div className=" pt-lg-5 mt-lg-5  ">
+            <span > </span>
+          </div><div className=" pt-lg-5 pt-md-3 mt-lg-5 mt-4  ">
+            <span > </span>
+          </div><div className=" mt-xl-3 mt-md-0   ">
+            <span > </span>
+          </div>  
+          {/* -------Spacer DIve End */}
+        <div className=" xl-container px-xl-5 pb-5 pt-5 ">
+
+          <div>
+            <Personal_Information />
+          </div>
         </div>
+
         {/* -----------------------Card 1---------------------------------------------- */}
         <div className="xl-container  mt-5 ">
           <div className="mt-5  d-flex card-inner">
